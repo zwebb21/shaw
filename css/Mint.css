@@ -63,44 +63,35 @@ text-align: center;
 }
 
 
+
+
+#Ingrid {
+margin: auto;
+  width: 350px;
+padding-bottom: 20px;
+
+
+
+}
+
+
+
 .list-group{
-
-
 text-align: center;
-letter-spacing: 0.35em;
-
-
+letter-spacing: 0.07em;
+font-size: small;
 }
 
-#IngreditentsHeader
-
-
-{
+#IngreditentsHeader{
 
 text-align: center;
 
 }
 
-a {
-
-color: white;
-
-
-}
+a { color: white;}
 
 a:hover {
-
 color: rgb(50, 255, 156);
 
-
-
 }
 
-.btn-info{
-
-
-  ;
-
-
-
-}
