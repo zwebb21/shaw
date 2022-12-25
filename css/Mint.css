@@ -1,0 +1,86 @@
+
+body{
+
+  background: rgb(156,238,192);
+  background: radial-gradient(circle, rgba(156,238,192,1) 0%, rgba(238,255,246,1) 100%);
+
+
+}
+.subfooter{
+  font-size: 20px;
+  background-color:#9ceec0;
+  color: black;
+  text-align: center;
+}
+
+.footer{
+  font-size: 16px;
+  background-color:#64db8f;
+  color:#fefefe;
+  font-style: italic;
+  text-align: center;
+}
+
+.mid{
+  background-color: #9ceec0 ;
+  padding-top: 40px;
+  padding-bottom:40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  clip-path: circle();
+  height: 120px;
+text-align: center;
+
+}
+
+
+#cupcake-card{
+
+padding-bottom: 12px;
+padding-top: 52px;
+padding: 1.9em;
+
+}
+
+/*Background Gradient Here*/
+
+#hero {
+
+text-align: center;
+
+}
+
+#SH-title{
+
+letter-spacing: 0.18em;
+padding-left: 50px;
+}
+
+.navbarNav{
+text-align: center;
+
+
+}
+
+
+.list-group{
+
+
+text-align: center;
+letter-spacing: 0.35em;
+
+
+}
+
+#IngreditentsHeader
+
+
+{
+
+
+text-align: center;
+
+
+
+
+}
