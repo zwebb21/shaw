@@ -33,8 +33,20 @@ align-items: center;
 
 }
 
-.btn{
 
-align-items: center;
+
+.btn {
+padding: 1.3px;
 
 }
+
+
+#cupcake-card{
+
+padding-bottom: 12px;
+padding-top: 52px;
+padding: 1.9em;
+
+}
+
+
