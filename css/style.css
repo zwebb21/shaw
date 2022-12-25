@@ -79,6 +79,13 @@ text-align: center;
 
 
 #SH-title{
-text-align: center;
+
 letter-spacing: 0.18em;
+padding-left: 50px;
+}
+
+.navbarNav{
+text-align: center;
+
+
 }
