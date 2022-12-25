@@ -36,7 +36,7 @@ align-items: center;
 
 
 .btn {
-padding: 1.3px;
+padding: 2.4px;
 
 }
 
@@ -50,10 +50,11 @@ padding: 1.9em;
 }
 
 
-.box {
-
+#row2 {
 
 
 border: 2px solid black;
+
+
 
 }
