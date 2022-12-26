@@ -85,7 +85,7 @@ font-size: small;
 #IngreditentsHeader{
 
 text-align: center;
-
+margin-top: 20% ;
 }
 
 a { color: white;}
@@ -104,10 +104,14 @@ text-align: center;
 
 
 
-.col-12 img{
+.col-6 img{
 margin: auto;
-  margin-top: 28px;
+  margin-top: 12%;
 display: flex;
 flex-direction: column;
 border-radius: 10%;
+
+margin-bottom: 20%;
+
+
 }

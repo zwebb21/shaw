@@ -34,3 +34,19 @@ Font- Size
 <p class="fs-4">.fs-4 text</p>
 <p class="fs-5">.fs-5 text</p>
 <p class="fs-6">.fs-6 text</p>
+
+
+
+
+
+
+
+
+
+
+12:33am
+
+Added several new pages. Abit of fatigue and its getting late. Going to set a checkpint here and contiue this project lateron in the week once agia.
+I must stay focus . 
+
+added new css properties aswell 
