@@ -94,7 +94,7 @@ body{
   #SC-Header{
 
 text-align: center;
-color: red;
+color: rgb(0, 0, 0);
 
   }
 
@@ -104,5 +104,12 @@ color: red;
 margin: auto;
 margin-bottom: 200px;
 padding-top: 100px;
+width: fit-content;
+  }
+
+
+  #Copyright{
+
+text-align: center;
 
   }

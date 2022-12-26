@@ -67,7 +67,7 @@ text-align: center;
 
 #Ingrid {
 margin: auto;
-  width: 350px;
+  width: 600px;
 padding-bottom: 20px;
 
 
@@ -100,4 +100,14 @@ color: rgb(50, 255, 156);
 
 text-align: center;
 
+}
+
+
+
+.col-12 img{
+margin: auto;
+  margin-top: 28px;
+display: flex;
+flex-direction: column;
+border-radius: 10%;
 }
