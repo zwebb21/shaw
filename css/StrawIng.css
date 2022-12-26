@@ -33,15 +33,6 @@ text-align: center;
 
 }
 
-.btn-danger {
-
-align-items: center;
-margin-top: 20px;
-
-}
-
-
- 
 
 #cupcake-card{
 
@@ -51,32 +42,13 @@ padding: 1.9em;
 
 }
 
-
-#row2 {
-
-
-border: 2px solid black;
-}
-
-
 /*Background Gradient Here*/
 
 #hero {
 
 text-align: center;
 
-
 }
-
-
-.Row2Header{
-
-
-
-
-  
-}
-
 
 #SH-title{
 
@@ -91,19 +63,64 @@ text-align: center;
 }
 
 
-.card-body {
+
+
+#Ingrid {
+margin: auto;
+  width: 600px;
+padding-bottom: 20px;
+
+
+
+}
+
+
+
+.list-group{
+text-align: center;
+letter-spacing: 0.07em;
+font-size: small;
+}
+
+#IngreditentsHeader{
+
+text-align: center;
+margin-top: 20% ;
+}
+
+a { color: white;}
+
+a:hover {
+color: rgb(50, 255, 156);
+
+}
+
+.card-title{
 
 
 text-align: center;
 
+}
+
+
+
+.col-6 img{
+margin: auto;
+  margin-top: 12%;
+display: flex;
+flex-direction: column;
+border-radius: 10%;
+
+margin-bottom: 20%;
+
 
 }
 
 
-#Menuline {
 
-
-padding-top: 80px;
-padding-bottom: 40px;
-
-}
+#SF-Header{
+  margin-top:  12%;
+  text-align: center;
+  margin-bottom:  6px;
+  
+    }

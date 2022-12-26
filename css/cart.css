@@ -1,0 +1,115 @@
+
+body{
+
+    background: rgb(156,238,192);
+    background: radial-gradient(circle, rgba(156,238,192,1) 0%, rgba(238,255,246,1) 100%);
+  
+  
+  }
+  .subfooter{
+    font-size: 20px;
+    background-color:#9ceec0;
+    color: black;
+    text-align: center;
+  }
+  
+  .footer{
+    font-size: 16px;
+    background-color:#64db8f;
+    color:#fefefe;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .mid{
+    background-color: #9ceec0 ;
+    padding-top: 40px;
+    padding-bottom:40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    clip-path: circle();
+    height: 120px;
+  text-align: center;
+  
+  }
+  
+  .btn-danger {
+  
+  align-items: center;
+  margin-top: 20px;
+  
+  }
+  
+  
+   
+  
+  #cupcake-card{
+  
+  padding-bottom: 12px;
+  padding-top: 52px;
+  padding: 1.9em;
+  
+  }
+  
+  
+  #row2 {
+  
+  
+  border: 2px solid black;
+  }
+  
+  
+  /*Background Gradient Here*/
+  
+  #hero {
+  
+  text-align: center;
+  
+  
+  }
+  
+  
+  .Row2Header{
+  
+  
+  
+  
+    
+  }
+  
+  
+  #SH-title{
+  
+  letter-spacing: 0.18em;
+  padding-left: 50px;
+  }
+  
+  .navbarNav{
+  text-align: center;
+  
+  
+  }
+
+
+  #SC-Header{
+
+text-align: center;
+color: rgb(0, 0, 0);
+
+  }
+
+
+  #cartdiv {
+
+margin: auto;
+margin-bottom: 200px;
+padding-top: 100px;
+width: fit-content;
+  }
+
+
+  #Copyright{
+
+text-align: center;
+
+  }
