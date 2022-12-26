@@ -50,3 +50,13 @@ Added several new pages. Abit of fatigue and its getting late. Going to set a ch
 I must stay focus . 
 
 added new css properties aswell 
+
+
+
+Dec 26th 2022 - 
+Good  Morning. Woke and Decided that i will finish the ingredients pages. Today 
+Currently 8:00am and i Have work at 10am .
+
+
+
+--
