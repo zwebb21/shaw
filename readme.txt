@@ -59,4 +59,13 @@ Currently 8:00am and i Have work at 10am .
 
 
 
+8:00pm
+Decided i would take the rest of the night to learn and start getting expose to using Sass
+
+
 --
+
+
+
+Tuesday 
+December 27th 2022 
