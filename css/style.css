@@ -37,7 +37,7 @@ text-align: center;
 
 align-items: center;
 margin-top: 20px;
-
+margin-bottom: 20px;
 }
 
 
@@ -105,5 +105,49 @@ text-align: center;
 
 padding-top: 80px;
 padding-bottom: 40px;
+
+}
+
+
+
+#Order-now a {
+
+color: white;
+text-decoration: none; /* gets rid of the underline on links on order now.*/}
+
+
+.Order-Now-Titles {
+
+text-align: center;
+font-weight: lighter;
+font-weight: 300;
+letter-spacing: 0.088em;
+}
+
+.img-thumbnail{
+
+width:80%;
+
+}
+
+
+#Order-now{
+
+text-align: center;
+
+}
+
+#PLrow2 {
+margin-top: 420px;
+
+
+}
+
+#hero2{
+position: absolute;
+margin-top: 150px;
+color: #393232;
+
+text-align: center;
 
 }

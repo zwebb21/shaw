@@ -4,7 +4,7 @@
 December 25th
 1. Need to finish building ingredients for all 6 cupcakes
 2. Need to link all picture to cart with order now button 
-3. Make sure all Navigations are the same 
+3. Make sure all Navigations are the same  
 4. Create a backend server for user data when ordering
 5. how to setup a payment process via paypal for site
 
@@ -43,11 +43,19 @@ December 27th 2022
 10:05 am - 
 Today i will be attacking the 
 {3. Make sure all Navigations are the same }
+10:12 am - Done 
 
-
+Task 2 :
 
 
 
 
 
 ================================================================
+
+
+
+
+
+Januaury 4th 2023
+I decided to add links to the order butttons. Now i understand why javascript is important. I cant link none of the values to the shhopping cart. 
