@@ -1,28 +1,30 @@
 
 body{
 
-  background: rgb(156,238,192);
-  background: radial-gradient(circle, rgba(156,238,192,1) 0%, rgba(238,255,246,1) 100%);
-
+  background: rgb(97, 117, 106);
+  background: #eacda3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 
 }
 .subfooter{
   font-size: 20px;
-  background-color:#9ceec0;
+  background-color:#85755f;
   color: black;
   text-align: center;
 }
 
 .footer{
   font-size: 16px;
-  background-color:#64db8f;
+  background-color:#85755f;
   color:#fefefe;
   font-style: italic;
   text-align: center;
 }
 
 .mid{
-  background-color: #9ceec0 ;
+  background-color: #85755f ;
   padding-top: 40px;
   padding-bottom:40px;
   padding-left: 5px;
@@ -68,14 +70,6 @@ text-align: center;
 
 }
 
-
-.Row2Header{
-
-
-
-
-  
-}
 
 
 #SH-title{
@@ -150,4 +144,27 @@ color: #393232;
 
 text-align: center;
 
+}
+
+
+.abouthead {
+text-align: center;
+
+color: red;
+}
+
+.col-lg-3{
+
+
+  padding: 30px;
+}
+
+
+
+#BestSellers {
+
+margin-top: 8rem;
+text-align: center;
+letter-spacing: 0.12em;
+margin-bottom: 4rem;
 }
