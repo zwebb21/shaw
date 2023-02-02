@@ -9,21 +9,21 @@ body{
   }
   .subfooter{
     font-size: 20px;
-    background-color:#9ceec0;
+    background-color:#a0825c;
     color: black;
     text-align: center;
   }
   
   .footer{
     font-size: 16px;
-    background-color:#64db8f;
+    background-color:#a0825c;
     color:#fefefe;
     font-style: italic;
     text-align: center;
   }
   
   .mid{
-    background-color: #9ceec0 ;
+    background-color: #a0825c;
     padding-top: 40px;
     padding-bottom:40px;
     padding-left: 5px;

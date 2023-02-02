@@ -46,9 +46,7 @@ Today i will be attacking the
 10:12 am - Done 
 
 Task 2 :
-
-
-
+=============================================================
 
 
 ================================================================
@@ -59,3 +57,24 @@ Task 2 :
 
 Januaury 4th 2023
 I decided to add links to the order butttons. Now i understand why javascript is important. I cant link none of the values to the shhopping cart. 
+
+
+
+======================================================`=================
+
+1/23/2023- 
+8:41pm
+
+
+Because im looking to use this mockup site as a project for my portfolio. Im going to be adding more changes and updates weekly. speding maybe about 6hours a work working on the 
+site. 
+
+
+
+
+
+
+
+
+
+

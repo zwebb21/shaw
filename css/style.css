@@ -35,7 +35,7 @@ text-align: center;
 
 }
 
-.btn-danger {
+.btn-dark {
 
 align-items: center;
 margin-top: 20px;
@@ -150,7 +150,7 @@ text-align: center;
 .abouthead {
 text-align: center;
 
-color: red;
+color: black;
 }
 
 .col-lg-3{
