@@ -1,4 +1,5 @@
 
+
 body{
 
   background: rgb(97, 117, 106);
@@ -11,17 +12,41 @@ body{
 .subfooter{
   font-size: 20px;
   background-color:#85755f;
-  color: black;
+  color: #85755f;
   text-align: center;
 }
 
-.footer{
-  font-size: 16px;
-  background-color:#85755f;
-  color:#fefefe;
-  font-style: italic;
-  text-align: center;
+.footer {
+  position: absolute;
+
+  width:90%;
+ 
+           /* Footer height */
 }
+
+.hero {
+
+display: flex;
+justify-content: center;
+margin-top: 120px;
+
+}
+.hero img{
+
+border-radius:16%;
+padding: 13px;
+}
+
+.footer p {
+  font-size: 11px;
+  background-color:#85755f;
+  font-style: italic;
+color:  #363027;
+  text-align: center;
+  padding: 30px;
+width: 115%;
+}
+
 
 .mid{
   background-color: #85755f ;
@@ -147,11 +172,7 @@ text-align: center;
 }
 
 
-.abouthead {
-text-align: center;
 
-color: black;
-}
 
 .col-lg-3{
 
@@ -159,7 +180,7 @@ color: black;
   padding: 30px;
 }
 
-
+/* About page Css  */
 
 #BestSellers {
 
@@ -168,3 +189,162 @@ text-align: center;
 letter-spacing: 0.12em;
 margin-bottom: 4rem;
 }
+
+
+
+.about-1{
+
+margin-top: 120px;
+text-align: center;
+}
+
+.HIS, .Brt{
+line-height:2.5rem;
+
+
+}
+
+
+.Chl, .Wtn {
+
+
+line-height: 2.1rem;
+margin-top: 120px;
+
+}
+
+
+
+/* styling for all the about sections */
+
+.abouthead {
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+  padding: 12px;
+    margin-top: 40px;
+  text-align: center;
+  
+  color: rgb(0, 0, 0);
+  }
+
+
+  .navbar{
+
+display:flex ;
+justify-content: center;
+color: brown;
+text-align: center;
+
+  }
+
+
+
+
+/* about section part 2  */
+
+.container-3{
+margin-top: 320px;
+display: flex;
+
+justify-content: space-evenly;
+height: 30vh;
+
+}
+
+
+.card-title{
+
+
+line-height: 1.2rem;
+letter-spacing: 0.23rem;
+
+}
+
+.container-3 h3{
+
+  text-align: center;
+
+}
+
+.container-3 p {
+
+line-height: 2.45rem;
+padding: 10px;
+
+}
+
+.wave{
+
+    position: absolute;
+    top:  0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: absolute;
+    display: block;
+    width: calc(170% + 1.3px);
+    height: 500px;
+}
+
+.wave .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+.profilepic{
+
+border-radius: 50%;
+
+
+}
+
+
+
+.profilepic-card p {
+  
+background-color: #7a7a7a;
+  border-radius: 12px;
+ opacity: 88%;
+text-align: center;
+padding: 12px;
+  }
+
+
+.container-4  {
+
+margin-top: 120px;
+
+}
+
+/* Menu Css */
+
+.card-footer{
+
+  text-align: center;
+}
+
+.card-footer a{
+text-decoration: none;
+color: #FFFFFF;
+font-weight: 500;
+letter-spacing: 0.23rem;
+font-size: medium;
+}
+
+.menu-img{
+
+
+padding: 50px;
+border-radius: 25%;
+
+}
+
+
+
