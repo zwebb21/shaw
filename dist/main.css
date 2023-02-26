@@ -1,0 +1,213 @@
+.btn-dark {
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+button {
+  text-align: center;
+  /* There is a & with a :hover you can use to say esstentially and i want the hover on the link to turn red when hover. */
+}
+button a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; /* gets rid of the underline on links on order now.*/
+}
+button :hover {
+  color: red;
+}
+
+#cupcake-card {
+  padding-bottom: 12px;
+  padding-top: 52px;
+  padding: 1.9em;
+}
+
+.card h5 {
+  text-align: center;
+}
+.card a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffb0b0;
+  font-weight: 500;
+  letter-spacing: 0.23rem;
+  font-size: medium;
+}
+.card img {
+  padding: 60px;
+  border-radius:24%;
+}
+.card footer {
+  text-align: center;
+}
+
+.Order-Now-Titles {
+  text-align: center;
+  font-weight: lighter;
+  font-weight: 200;
+  letter-spacing: 0.188em;
+  /*This is for the card titles on the index page with the order now title class*/
+}
+
+.text-muted {
+  color: aliceblue;
+  text-align: center;
+}
+
+p {
+  padding: 12px;
+  color: aquamarine;
+  text-align: center;
+}
+
+.cupcakeline {
+  width: 200px;
+}
+
+#ccline {
+  display: flex;
+  justify-items: center;
+}
+
+.list-group-item {
+  color: rgb(3, 2, 2);
+  font-size: 12x;
+}
+
+body {
+  background: rgb(97, 117, 106);
+  background: #eacda3; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.subfooter {
+  font-size: 20px;
+  background-color: #85755f;
+  color: #85755f;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 11px;
+  background-color: #85755f;
+  font-style: italic;
+  color: #363027;
+  text-align: center;
+  padding: 30px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.hero img {
+  border-radius: 16%;
+  padding: 13px;
+}
+
+#SH-title {
+  letter-spacing: 0.18em;
+  padding-left: 50px;
+}
+
+.navbarNav {
+  text-align: center;
+}
+
+#Ingrid {
+  margin: auto;
+  width: 600px;
+  padding-bottom: 20px;
+}
+
+.list-group {
+  text-align: center;
+  letter-spacing: 0.07em;
+  font-size: small;
+}
+
+#IngreditentsHeader {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.col-6 img {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 103%;
+  margin-bottom: 20%;
+  padding-left: 42px;
+
+  margin-top: 122px;
+/* This margin top gives us a good amount of space from the title with the images */
+  /* col images  */
+
+}
+
+#VW-Header {
+  margin-top: 12%;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+#BS {
+  color: red;
+}
+
+.list-group {
+  text-align: center;
+  letter-spacing: 0.19em;
+  font-size: small;
+  /* Ingreditents on mint */
+  padding-right: 120px;
+  padding-left: 40px;
+}
+
+#IngreditentsHeader {
+  /* Mint ingreditents header */
+  text-align: center;
+  margin-top: 20%;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(50, 255, 156);
+}
+
+.footer {
+  font-size: 16px;
+  background-color: rgba(154, 126, 88, 0.8666666667);
+  color: #fefefe;
+  font-style: italic;
+  text-align: center;
+  margin-top: 300px;
+  /* Mint Footer */
+}
+
+.subfooter {
+  font-size: 20px;
+  background-color: rgba(190, 150, 98, 0.5450980392);
+  color: black;
+  text-align: center;
+  /*Mint SubFooter*/
+}
+
+#MT-Header {
+  margin-top: 12%;
+  text-align: center;
+  margin-bottom: 6px;
+  /* Mint Header */
+}
+
+#mintimg {
+  padding: 60px;
+  border-radius: 24%;
+}/*# sourceMappingURL=main.css.map */
+
+

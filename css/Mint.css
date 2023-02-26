@@ -8,23 +8,31 @@ body{
   background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
+
+
+/* main */
+/* 
 .subfooter{
   font-size: 20px;
-  background-color:#9ceec0;
+  background-color:#be96628b;
   color: black;
   text-align: center;
-}
+ 
+} */
 
-.footer{
+/* .footer{
   font-size: 16px;
-  background-color:#64db8f;
+  background-color:#9a7e58dd;;
   color:#fefefe;
   font-style: italic;
   text-align: center;
-}
+  margin-top: 300px;
+/* Mint Footer */
 
+
+/* 
 .mid{
-  background-color: #9ceec0 ;
+  background-color: #be96628b; ;
   padding-top: 40px;
   padding-bottom:40px;
   padding-left: 5px;
@@ -33,16 +41,16 @@ body{
   height: 120px;
 text-align: center;
 
-}
+} */
 
-
+/* 
 #cupcake-card{
 
 padding-bottom: 12px;
 padding-top: 52px;
 padding: 1.9em;
 
-}
+} */
 
 /*Background Gradient Here*/
 
@@ -52,11 +60,11 @@ text-align: center;
 
 }
 
-#SH-title{
+/* #SH-title{
 
 letter-spacing: 0.18em;
 padding-left: 50px;
-}
+} */
 
 .navbarNav{
 text-align: center;
@@ -67,25 +75,29 @@ text-align: center;
 
 
 
-#Ingrid {
+/* #Ingrid {
 margin: auto;
   width: 600px;
 padding-bottom: 20px;
 
 
 
-}
+} */
 
 
 
 .list-group{
 text-align: center;
-letter-spacing: 0.07em;
+letter-spacing: 0.19em;
 font-size: small;
+/* Ingreditents on mint */
+padding-right: 120px;
+padding-left: 40px;
+
 }
 
 #IngreditentsHeader{
-
+/* Mint ingreditents header */
 text-align: center;
 margin-top: 20% ;
 }
@@ -108,11 +120,9 @@ text-align: center;
 
 .col-6 img{
 margin: auto;
-
 display: flex;
 flex-direction: column;
-border-radius: 10%;
-
+border-radius: 54%;
 margin-bottom: 20%;
 padding-left: 33px;
 padding-right: 20px;
@@ -123,5 +133,5 @@ padding-right: 20px;
 margin-top:  12%;
 text-align: center;
 margin-bottom:  6px;
-
+/* Mint Header */
 }

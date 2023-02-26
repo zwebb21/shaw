@@ -5,10 +5,11 @@
   <meta charset="utf-8">
   <title>Shadawn Cupcakes</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="dist/main.css">
 
 
 
@@ -16,109 +17,116 @@
 </head>
 
 <body>
+  <!-- Start of navigation -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light" style="background-color: #9f815b">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <h2 class="display-6" id="SH-title">Shadawn Cupcakes</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
 
-
-
-    <!-- Start of navigation -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light" style="background-color: #a0825c">
-      <div class="container">    
-        <a class="navbar-brand" href="index.html"><h2 class="display-6" id="SH-title">Shadawn Cupcakes</h2></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="cart.html">Cart</a>
-            </li>
-
-
-          </ul>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- End of navigation -->
-
-
+    </div>
+  </nav>
+  <!-- End of navigation -->
 
   <!-- start of header banner  -->
 
-    <!-- End of header banner -->
-<div class="row">
-  <div class="col-lg-12 2">
-    <p> &nbsp;</p>
+  <!-- End of header banner -->
+  <div class="row">
+    <div class="col-lg-12 2">
+      <p> &nbsp;</p>
+    </div>
   </div>
-</div>
 
 
+  <!-- Beginning of Product List -->
+  <!-- Beginning-->
+  <div class="row">
+    <div class="col-12">
 
+      <h3 class="display-2 text-center" id="BestSellers">This Years Best Sellers</h3>
 
-
-<!-- Beginning of Product List -->
-
-
-<!-- Beginning-->
-<div class="row">
-  <div class="col-12">
-
-<h3 class="display-2" id="BestSellers">This Years Best Sellers</h3>
-
+    </div>
   </div>
-</div>
 
-<!-- End -->
+  <!-- End -->
 
-    <div class="product-list">
-      <div class="row">
+  <div class="product-list p-5">
+    <div class="row">
 
-        <div class="col-lg-4" id="Order-now">
-
-
-          <h3 class="Order-Now-Titles">Mint chocolate</h3>
-          <img class="img-thumbnail" src="img/cupcake7.jpeg" alt="">
-
-          <div style="text-align: center;">
-            <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a>  </button>
-          </div>
-</div>
+      <div class="col-lg-4" id="Order-now">
 
 
-        <div class="col-lg-4" id="Order-now">
+        <h3 class="Order-Now-Titles">Mint chocolate</h3>
+        <a href="MintIn.html"><img class="img-thumbnail" src="img/cupcake7.jpeg" alt=""></a>
 
-          <h3 class="Order-Now-Titles">Strawberry Funnel</h3>
-          <img class="img-thumbnail" src="img/cupcake5.jpeg" alt="">
-          <div style="text-align: center;">
-            <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a>  </button>
-          </div>
+        <div style="text-align: center;">
+          <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a> </button>
+        </div>
+      </div>
 
 
+      <div class="col-lg-4" id="Order-now">
 
+        <h3 class="Order-Now-Titles">Strawberry Funnel</h3>
+        <a href="StrawFunnelIn.html"> <img class="img-thumbnail" src="img/cupcake5.jpeg" alt=""></a>
+
+        <div style="text-align: center;">
+          <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a> </button>
         </div>
 
 
-        <div class="col-lg-4" id="Order-now">
-          <h3 class="Order-Now-Titles">Brownine Delight </h3>
-          <img class="img-thumbnail" src="img/cupcake8.jpeg" alt="">
-          <div style="text-align: center;">
-            <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a>  </button>
-          </div>
+
+      </div>
+
+
+      <div class="col-lg-4" id="Order-now">
+        <h3 class="Order-Now-Titles">Brownine Delight </h3>
+        <a href="Brownie.html"> <img class="img-thumbnail" src="img/cupcake8.jpeg" alt=""></a>
+
+        <div style="text-align: center;">
+          <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a> </button>
         </div>
       </div>
     </div>
-<!--IN BETWEEN SECTION -->
+  </div>
+  <!--IN BETWEEN SECTION -->
+
+  <div class="row">
+    <div class="col-12" id="hero2">
+
+
+      <h3 class="display-4 text-center">Holiday Favorites Till March </h3>
+
+    </div>
+
+
+
+  </div>
+
+  <!--IN BETWEEN SECTION -->
 
 
 
@@ -126,127 +134,85 @@
 
 
 
+  <!-- Second row of product list -->
 
-<div class="row">
-<div class="col-12" id="hero2">
+  <div class="product-list p-5" id="PLrow2">
+    <div class="row">
 
-
-<h3 class="display-2">Holiday Favorites Till March </h3>
-
-</div>
-
-
-
-</div>
+      <div class="col-lg-4" id="Order-now">
+        <h3 class="Order-Now-Titles">Chocolate Moose</h3>
+<a href="Moose.html">    <img class="img-thumbnail" src="img/cupcake2.jpeg" alt=""></a>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--IN BETWEEN SECTION -->
-    <!-- Second row of product list -->
-
-    <div class="product-list" id="PLrow2">
-      <div class="row">
-
-        <div class="col-lg-4" id="Order-now">
-          <h3 class="Order-Now-Titles">Chocolate Moose</h3>
-          <img class="img-thumbnail" src="img/cupcake2.jpeg" alt="">
-          <div style="text-align: center;">
-            <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a>  </button>
-          </div>
-</div>
-
-
-        <div class="col-lg-4" id="Order-now">
-          <h3 class="Order-Now-Titles">Birthday Cake</h3>
-          <img class="img-thumbnail" src="img/cupcake3.jpeg" alt="">
-            
-
-
-          <div style="text-align: center;">
-            <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a>  </button>
-          </div>
-          
-
+    
+        <div style="text-align: center;">
+          <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a> </button>
         </div>
+      </div>
 
 
-        <div class="col-lg-4" id="Order-now">
-          <h3 class="Order-Now-Titles">Coca Vanilla Bean</h3> 
-          <img class="img-thumbnail" src="img/cupcake4.jpeg" alt="Coca Vanilla Bean">
-          
-        
 
-            <div style="text-align: center;">
-              <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a>  </button>
-            </div>
+<!-- Birthday Cake -->
+
+      <div class="col-lg-4" id="Order-now">
+        <h3 class="Order-Now-Titles">Birthday Cake</h3>
+      <a href="Birthdaycake.html"><img class="img-thumbnail" src="img/cupcake3.jpeg" alt=""></a>  
 
 
-        </div>
 
-
+        <div style="text-align: center;">
+          <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a> </button>
         </div>
 
 
       </div>
 
+<!-- Vanilla Bean  -->
+      <div class="col-lg-4" id="Order-now">
+        <h3 class="Order-Now-Titles">Coca Vanilla Bean</h3>
+
+<a href="Vanillabean.html">       <img class="img-thumbnail" src="img/cupcake4.jpeg" alt="Coca Vanilla Bean"></a>
+
+
+        <div style="text-align: center;">
+          <button type="button" value="button" class="btn btn-dark"><a href="cart.html">Order Now</a> </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row">
+
+    <div class="row footer">
+      <div class="col-lg-12">
+
+        <img class="socialicons" src="img/fb.png" alt="">
+        <img class="socialicons" src="img/pin.png" alt="">
+        <img class="socialicons" src="img/tw.png" alt="">
+        <img class="socialicons" src="img/yt.png" alt="">
+        <p class="fw-light">Copyright © Shadawn Cupcakes 2021</p>
+
+      </div>
+
+
+
+
+
+
+
+      
     </div>
 
-    <!-- Subfooter -->
-<div class="row subfooter">
-<div class="col-lg-12">
 
-<img class="socialicons"src="img/fb.png" alt="">
-<img class="socialicons"src="img/pin.png" alt="">
-<img class="socialicons"src="img/tw.png" alt="">
-<img class="socialicons"src="img/yt.png" alt="">
-
-
-</div>
-
-
-
-
-</div>
-<!-- Real Footer -->
-<div class="row footer">
-<div class="col-lg-12">
-
-<p class="fw-light">Copyright © Shadawn Cupcakes 2021</p>
-
-</div>
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-</div>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

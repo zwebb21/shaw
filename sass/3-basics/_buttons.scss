@@ -1,0 +1,27 @@
+.btn-dark {
+
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    }
+    
+
+    button {
+
+        text-align: center;
+        
+
+
+        a {
+
+            color: rgb(255, 255, 255);
+            text-decoration: none; /* gets rid of the underline on links on order now.*/}
+
+
+            & :hover {
+                color: red;
+
+            }
+
+/* There is a & with a :hover you can use to say esstentially and i want the hover on the link to turn red when hover. */
+        }
