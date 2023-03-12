@@ -35,10 +35,13 @@ button :hover {
 }
 .card img {
   padding: 60px;
-  border-radius:24%;
+  border-radius: 24%;
 }
 .card footer {
   text-align: center;
+}
+.card text {
+  font-size: 14px;
 }
 
 .Order-Now-Titles {
@@ -54,12 +57,6 @@ button :hover {
   text-align: center;
 }
 
-p {
-  padding: 12px;
-  color: aquamarine;
-  text-align: center;
-}
-
 .cupcakeline {
   width: 200px;
 }
@@ -70,7 +67,7 @@ p {
 }
 
 .list-group-item {
-  color: rgb(3, 2, 2);
+  color: rgb(0, 0, 0);
   font-size: 12x;
 }
 
@@ -137,14 +134,9 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  border-radius: 103%;
+  border-radius: 100%;
+  padding: 20px;
   margin-bottom: 20%;
-  padding-left: 42px;
-
-  margin-top: 122px;
-/* This margin top gives us a good amount of space from the title with the images */
-  /* col images  */
-
 }
 
 #VW-Header {
@@ -208,6 +200,90 @@ a:hover {
 #mintimg {
   padding: 60px;
   border-radius: 24%;
+}
+
+#contactInfoRow {
+  background-color: rgba(213, 172, 118, 0.991);
+  height: 45vh;
+}
+
+#emailinfobox {
+  text-align: center;
+  background-color: #c6a77e;
+  border-radius: 12px;
+  margin-bottom: 2px;
+  height: 260px;
+}
+
+#emailinfobox label {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: larger;
+  margin-bottom: 15px;
+}
+
+#EmailButton {
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+.btn-newsletter {
+  background-color: #494949;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  transition: background-color 0.5s ease;
+  transition: font-size 0.5s ease;
+  margin-top: 12px;
+  margin-left: 38px;
+}
+
+button:hover {
+  background-color: #8e7d3e;
+  font-size: 29px;
+  color: black;
+}
+
+.cupcake-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.cupcake-wrapper {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f7e1b5;
+}
+
+.cupcake-cake {
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  height: 30px;
+  border-radius: 20px 20px 0 0;
+  background-color: #c78e5a;
+}
+
+.cupcake-frosting {
+  position: absolute;
+  bottom: 30px;
+  width: 50px;
+  height: 20px;
+  border-radius: 0 0 10px 10px;
+  background-color: #ffcccf;
+}
+
+.cupcake-cherry {
+  position: absolute;
+  bottom: 48px;
+  left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d71c4b;
+  box-shadow: inset -2px 2px 0 #a90a35;
 }/*# sourceMappingURL=main.css.map */
-
-

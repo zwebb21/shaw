@@ -41,12 +41,15 @@
   
  
   .col-6 img{
+
+// controls the img for the cupcakes pages . _vanilla
+
   margin: auto;
   
   display: flex;
   flex-direction: column;
-  border-radius: 10%;
-  
+  border-radius: 100%;
+  padding: 20px;
   margin-bottom: 20%;
   
   
