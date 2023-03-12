@@ -70,8 +70,20 @@ Because im looking to use this mockup site as a project for my portfolio. Im goi
 site. 
 
 
+=====================================================================================
 
 
+
+
+*Work This Weeek *****
+2/2/2023  - 2/7/2023
+- 
+
+- Will be adding liknk to all images from the home page to individual cupcake pages
+- will separte the css to their respected html files. ( put the about css in a file called about css)
+- start building out a blog page for website. 
+- 
+===========================================================
 
 
 

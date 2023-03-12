@@ -1,22 +1,6 @@
 
+  
 
-  
-  
-  #cupcake-card{
-  
-  padding-bottom: 12px;
-  padding-top: 52px;
-  padding: 1.9em;
-  
-  }
-  
-  /*Background Gradient Here*/
-  
-  #hero {
-  
-  text-align: center;
-  
-  }
   
   #SH-title{
   
@@ -38,8 +22,7 @@
     width: 600px;
   padding-bottom: 20px;
   
-  
-  
+
   }
   
   
@@ -56,34 +39,21 @@
   margin-top: 20% ;
   }
   
-  a { color: white;}
-  
-  a:hover {
-  color: rgb(50, 255, 156);
-  
-  }
-  
-  .card-title{
-  
-  
-  text-align: center;
-  
-  }
-  
-  
-  
+ 
   .col-6 img{
+
+// controls the img for the cupcakes pages . _vanilla
+
   margin: auto;
   
   display: flex;
   flex-direction: column;
-  border-radius: 10%;
-  
+  border-radius: 100%;
+  padding: 20px;
   margin-bottom: 20%;
   
   
   }
-
 
   #VW-Header{
 margin-top:  12%;

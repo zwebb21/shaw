@@ -1,0 +1,44 @@
+body{
+
+    background: rgb(97, 117, 106);
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  
+  }
+
+
+  .subfooter{
+    font-size: 20px;
+    background-color:#85755f;
+    color: #85755f;
+    text-align: center;
+  }
+
+
+
+.footer p {
+    font-size: 11px;
+    background-color:#85755f;
+    font-style: italic;
+  color:  #363027;
+    text-align: center;
+    padding: 30px;
+  
+  }
+
+
+
+.hero {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  
+  }
+  .hero img{
+  
+  border-radius:16%;
+  padding: 13px;
+  }
