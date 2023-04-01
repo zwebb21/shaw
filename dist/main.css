@@ -286,4 +286,100 @@ button:hover {
   border-radius: 50%;
   background-color: #d71c4b;
   box-shadow: inset -2px 2px 0 #a90a35;
+}
+
+.col-12 {
+  text-align: center;
+}
+
+@media (min-width: 1400px) {
+  .History-Header {
+    text-align: center;
+    font-weight: 600;
+  }
+}
+@media (max-width: 768px) {
+  .Order-Now-Titles {
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 800;
+    letter-spacing: 0.288em;
+    /*This is for the card titles on the index page with the order now title class*/
+    font-size: 50px;
+  }
+  .about-paragraph {
+    font-size: 0.95rem;
+    letter-spacing: 0.04rem;
+    padding: 1.9px;
+  }
+  .abouthead {
+    text-align: center;
+    font-weight: 500;
+    padding: 4px;
+  }
+  .History-Header {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+  }
+  img {
+    width: 85%;
+  }
+}
+@media (max-width: 481px) {
+  .Order-Now-Titles {
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 400;
+    letter-spacing: 0.288em;
+    /*This is for the card titles on the index page with the order now title class*/
+    font-size: 50px;
+  }
+  .about-paragraph {
+    font-size: 0.95rem;
+    letter-spacing: 0.04rem;
+    padding: 1.9px;
+  }
+  .abouthead {
+    text-align: center;
+    font-weight: 800;
+  }
+  img {
+    width: 65%;
+  }
+}
+@media (max-width: 320px) {
+  .Order-Now-Titles {
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 500;
+    letter-spacing: 0.188em;
+    /*This is for the card titles on the index page with the order now title class*/
+    font-size: 30px;
+  }
+  .about-paragraph {
+    font-size: 0.85rem;
+  }
+  .abouthead {
+    text-align: center;
+    font-size: 100;
+  }
+  img {
+    width: 65%;
+  }
+}
+.container-3 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.container-3 p {
+  padding: 12px;
+}
+
+.abouthead {
+  padding: 10px;
+  margin-top: 52px;
 }/*# sourceMappingURL=main.css.map */

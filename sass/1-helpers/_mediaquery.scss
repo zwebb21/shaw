@@ -1,0 +1,164 @@
+// 320px — 480px: Mobile devices
+// 481px — 768px: iPads, Tablets
+// 769px — 1024px: Small screens, laptops
+// 1025px — 1200px: Desktops, large screens
+// 1201px and more —  Extra large screens, TV
+
+
+
+@media (min-width:1400px){
+
+
+
+.History-Header{
+text-align: center;
+font-weight: 600;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+    .Order-Now-Titles {
+        text-align: center;
+        font-weight: lighter;
+        font-weight: 800;
+        letter-spacing: 0.288em;
+        /*This is for the card titles on the index page with the order now title class*/
+        font-size: 50px;
+      }
+
+      .about-paragraph {
+        font-size: 0.95rem;
+        letter-spacing: 0.04rem;
+    // about us - paragraphs
+    padding: 1.9px;
+    }
+    
+    .abouthead{
+    text-align: center;
+    // about us - headers
+    font-weight: 500;
+    padding: 4px;
+    }
+
+.History-Header{
+// history header 
+text-align: center;
+font-weight: 600;
+margin-top: 40px;
+}
+
+
+img {
+
+    width: 85%;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:481px) {
+
+    .Order-Now-Titles {
+        text-align: center;
+        font-weight: lighter;
+        font-weight: 400;
+        letter-spacing: 0.288em;
+        /*This is for the card titles on the index page with the order now title class*/
+        font-size: 50px;
+      }
+
+
+
+      .about-paragraph {
+        font-size: 0.95rem;
+        letter-spacing: 0.04rem;
+    // about us - paragraphs
+    padding: 1.9px;
+    }
+    
+    .abouthead{
+    text-align: center;
+    // about us - headers
+    font-weight: 800;
+    }
+    
+    
+    
+    
+    img {
+
+
+
+
+        width: 65%;
+        }
+        
+
+}
+
+
+
+
+
+@media (max-width:320px){
+
+
+
+
+
+.Order-Now-Titles{
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 500;
+    letter-spacing: 0.188em;
+    /*This is for the card titles on the index page with the order now title class*/
+    font-size: 30px;
+}
+
+
+.about-paragraph {
+    font-size: 0.85rem;
+// about us - paragraphs
+}
+
+.abouthead{
+text-align: center;
+// about us - headers
+font-size: 100;
+}
+
+
+ img {
+
+
+
+
+width: 65%;
+}
+
+
+
+
+
+}
