@@ -85,7 +85,8 @@ site.
 - 
 ===========================================================
 
-
+March 31ast 2023 - 
+addes much nedded media queries to the main two pages. Hopefully should be more responsive ≤ 
 
 
 
