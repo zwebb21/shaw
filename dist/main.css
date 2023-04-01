@@ -16,6 +16,23 @@ button :hover {
   color: red;
 }
 
+.btn-newsletter {
+  background-color: #6c2323;
+  color: rgb(193, 34, 34);
+  padding: 10px 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 3px;
+  transition: background-color 0.5s ease;
+  margin-top: 0px;
+  margin-left: 38px;
+}
+
+button:hover {
+  font-size: 29px;
+  color: black;
+}
+
 #cupcake-card {
   padding-bottom: 12px;
   padding-top: 52px;
@@ -203,8 +220,14 @@ a:hover {
 }
 
 #contactInfoRow {
-  background-color: rgba(213, 172, 118, 0.991);
   height: 45vh;
+}
+
+.response-pic {
+  width: 50%;
+  border-radius: 30px;
+  margin-left: 20%;
+  padding: 20px;
 }
 
 #emailinfobox {
@@ -347,6 +370,9 @@ button:hover {
   img {
     width: 65%;
   }
+  .History-Header {
+    text-align: center;
+  }
 }
 @media (max-width: 320px) {
   .Order-Now-Titles {
@@ -367,6 +393,9 @@ button:hover {
   img {
     width: 65%;
   }
+  .socialicons {
+    width: 25%;
+  }
 }
 .container-3 {
   flex-direction: row;
@@ -379,7 +408,45 @@ button:hover {
   padding: 12px;
 }
 
+.contact-text {
+  font-size: xx-large;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+  color: rgb(68, 59, 48);
+  text-align: center;
+}
+
 .abouthead {
   padding: 10px;
   margin-top: 52px;
+}
+
+.faq-container {
+  background-color: rgba(255, 228, 196, 0.6588235294);
+  height: 1200px;
+  margin-top: 5px;
+}
+
+.accordion-header {
+  font-size: 8px;
+  color: brown;
+}
+
+.accordion-button {
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 0.08rem;
+  font-size: 18px;
+  color: rgb(66, 50, 31);
+  font-family: "Bebas Neue", "Courier New", Courier, monospace;
+  font-weight: 100;
+}
+
+.accordion {
+  background-color: rgba(88, 72, 52, 0.1294117647);
+}
+
+.FAQ-Header {
+  font-size: 22.5px;
+  padding: 40px;
 }/*# sourceMappingURL=main.css.map */

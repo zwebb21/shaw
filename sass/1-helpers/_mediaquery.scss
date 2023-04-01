@@ -8,8 +8,6 @@
 
 @media (min-width:1400px){
 
-
-
 .History-Header{
 text-align: center;
 font-weight: 600;
@@ -107,13 +105,17 @@ img {
     
     
     img {
-
-
-
-
         width: 65%;
         }
         
+
+.History-Header {
+
+text-align: center;
+
+}
+
+
 
 }
 
@@ -157,6 +159,12 @@ font-size: 100;
 width: 65%;
 }
 
+
+.socialicons{
+
+    width: 25%;
+        
+}
 
 
 
