@@ -1,3 +1,12 @@
+
+$theme-colors:(
+"primary":rgb(7, 208, 243),
+"danger":rgb(189, 43, 43),
+"dark" :rgb(61, 60, 60),
+"secondary": rgb(33, 145, 33),
+);
+
+
 @import '1-helpers/mixins';
 @import '3-basics/buttons';
 @import '3-basics/cards';
@@ -20,10 +29,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 // this is where you import all the css.
 
 
 
-
-$orange-color:#c86a00;
-$orange2-color: #00f114;
