@@ -88,6 +88,27 @@ button:hover {
   justify-items: center;
 }
 
+.flavor-cupcake-img {
+  width: 25%;
+  border-radius: 60%;
+}
+
+.flavor-line-1 {
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.flavor-line-2 {
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
 .list-group-item {
   color: rgb(0, 0, 0);
   font-size: 12x;
@@ -446,6 +467,13 @@ button:hover {
   font-family: "Staatliches", cursive;
 }
 
+#MT-Header {
+  color: #945959;
+  font-family: "Staatliches", cursive;
+  margin: 0;
+  padding: 50px;
+}
+
 .faq-container {
   background-color: rgba(255, 228, 196, 0.6588235294);
   height: 1200px;
@@ -474,6 +502,21 @@ button:hover {
 .FAQ-Header {
   font-size: 22.5px;
   padding: 40px;
+}
+
+.nav {
+  background-color: #c49d6b;
+}
+.nav a {
+  font-size: 27px;
+}
+
+.nav-tabs :active {
+  background-color: #f7dbb5;
+}
+
+.nav-tabs :disabled {
+  background-color: #876e4a;
 }
 
 /*!
@@ -3993,9 +4036,9 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: var(--bs-link-color);
-  --bs-nav-link-hover-color: var(--bs-link-hover-color);
-  --bs-nav-link-disabled-color: #6c757d;
+  --bs-nav-link-color: #945959;
+  --bs-nav-link-hover-color: #fddde0;
+  --bs-nav-link-disabled-color: rgb(84, 56, 38);
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -4027,11 +4070,11 @@ textarea.form-control-lg {
 }
 
 .nav-tabs {
-  --bs-nav-tabs-border-width: 1px;
+  --bs-nav-tabs-border-width: 2px;
   --bs-nav-tabs-border-color: #dee2e6;
   --bs-nav-tabs-border-radius: 0.375rem;
-  --bs-nav-tabs-link-hover-border-color: #e9ecef #e9ecef #dee2e6;
-  --bs-nav-tabs-link-active-color: #495057;
+  --bs-nav-tabs-link-hover-border-color: rgb(170, 133, 73);
+  --bs-nav-tabs-link-active-color: rgb(107, 79, 74);
   --bs-nav-tabs-link-active-bg: #fff;
   --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
   border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color);

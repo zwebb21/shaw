@@ -7,6 +7,11 @@ $theme-colors:(
 );
 
 
+
+
+
+
+
 @import '1-helpers/mixins';
 @import '3-basics/buttons';
 @import '3-basics/cards';
@@ -26,7 +31,7 @@ $theme-colors:(
 @import '4-layouts/paragraphs';
 @import '4-layouts/headings';
 @import '4-layouts/faq';
-
+@import '3-basics/navbar';
 
 
 

@@ -90,3 +90,12 @@ site.
 
 
 
+4/4/2023 
+
+learned that
+was trying to center the navbar items in the middle of the navbar,.
+used chatgpt to find the jstify -content-center 
+
+use justify-content-center class is added to the <ul> element that contains the navbar items. This will center the items horizontally within the navbar.
+
+You can also use other Bootstrap classes to customize the alignment further. For example, you can use align-items-center to vertically center the items within the navbar.
