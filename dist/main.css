@@ -52,7 +52,7 @@ button:hover {
   font-size: medium;
 }
 .card img {
-  padding: 60px;
+  padding: 15px;
   border-radius: 24%;
 }
 .card footer {
@@ -74,6 +74,10 @@ button:hover {
   /*This is for the card titles on the index page with the order now title class*/
 }
 
+#SH-title {
+  font-weight: 700;
+}
+
 .text-muted {
   color: aliceblue;
   text-align: center;
@@ -89,8 +93,8 @@ button:hover {
 }
 
 .flavor-cupcake-img {
-  width: 25%;
-  border-radius: 60%;
+  width: 140px;
+  border-radius: 1200%;
 }
 
 .flavor-line-1 {
@@ -109,6 +113,15 @@ button:hover {
   justify-content: space-around;
 }
 
+#SHistory {
+  width: 560px;
+}
+
+.socialicons {
+  padding: 6px;
+  margin-top: 5px;
+}
+
 .list-group-item {
   color: rgb(0, 0, 0);
   font-size: 12x;
@@ -117,7 +130,7 @@ button:hover {
 body {
   background: rgb(97, 117, 106);
   background: #eacda3; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #fff3e3, #fce9ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .subfooter {
@@ -128,12 +141,11 @@ body {
 }
 
 .footer p {
-  font-size: 11px;
-  background-color: #85755f;
+  font-size: 12.3px;
   font-style: italic;
   color: #363027;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
 }
 
 .hero {
@@ -241,7 +253,7 @@ a:hover {
 }
 
 #mintimg {
-  padding: 60px;
+  padding: 15px;
   border-radius: 24%;
 }
 
@@ -254,6 +266,10 @@ a:hover {
   border-radius: 30px;
   margin-left: 20%;
   padding: 20px;
+}
+
+#inputinfo {
+  margin-top: 50px;
 }
 
 #emailinfobox {
@@ -438,7 +454,7 @@ button:hover {
   font-size: xx-large;
   font-family: "Bebas Neue", cursive;
   font-weight: 700;
-  color: rgb(68, 59, 48);
+  color: #443b30;
   text-align: center;
 }
 
@@ -450,6 +466,7 @@ button:hover {
 .display-6 {
   color: #342a26;
   font-family: "Courgette", cursive;
+  font-weight: 700;
 }
 
 #BestSellers {
@@ -464,14 +481,18 @@ button:hover {
 
 #Menu-Heading {
   color: #342a26;
-  font-family: "Staatliches", cursive;
+  font-weight: 600;
 }
 
 #MT-Header {
   color: #945959;
-  font-family: "Staatliches", cursive;
   margin: 0;
   padding: 50px;
+  font-weight: 700;
+}
+
+#CupcakesSpan {
+  color: beige;
 }
 
 .faq-container {
@@ -505,7 +526,7 @@ button:hover {
 }
 
 .nav {
-  background-color: #c49d6b;
+  background-color: #d0ab7a;
 }
 .nav a {
   font-size: 27px;
@@ -517,6 +538,10 @@ button:hover {
 
 .nav-tabs :disabled {
   background-color: #876e4a;
+}
+
+body .container-fluid-2 {
+  background-color: black;
 }
 
 /*!
@@ -4037,7 +4062,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
   --bs-nav-link-color: #945959;
-  --bs-nav-link-hover-color: #fddde0;
+  --bs-nav-link-hover-color: #7a5237;
   --bs-nav-link-disabled-color: rgb(84, 56, 38);
   display: flex;
   flex-wrap: wrap;
@@ -4070,10 +4095,10 @@ textarea.form-control-lg {
 }
 
 .nav-tabs {
-  --bs-nav-tabs-border-width: 2px;
+  --bs-nav-tabs-border-width: 3px;
   --bs-nav-tabs-border-color: #dee2e6;
   --bs-nav-tabs-border-radius: 0.375rem;
-  --bs-nav-tabs-link-hover-border-color: rgb(170, 133, 73);
+  --bs-nav-tabs-link-hover-border-color: #7a5237;
   --bs-nav-tabs-link-active-color: rgb(107, 79, 74);
   --bs-nav-tabs-link-active-bg: #fff;
   --bs-nav-tabs-link-active-border-color: #dee2e6 #dee2e6 #fff;
