@@ -544,6 +544,10 @@ body .container-fluid-2 {
   background-color: black;
 }
 
+#navbar {
+  background-color: #e6d1b6;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
