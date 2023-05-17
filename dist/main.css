@@ -480,7 +480,7 @@ button:hover {
 }
 
 #Menu-Heading {
-  color: #342a26;
+  color: #945959;
   font-weight: 600;
 }
 
@@ -546,6 +546,26 @@ body .container-fluid-2 {
 
 #navbar {
   background-color: #e6d1b6;
+}
+
+#breakdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #eaddca;
+  text-align: center;
+  border-radius: 65px;
+}
+#breakdown img {
+  border-radius: 12px;
+  border: 2.8px solid rgb(109, 84, 59);
+}
+
+.container-breakdown {
+  padding: 190px;
 }
 
 /*!
