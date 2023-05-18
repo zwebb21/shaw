@@ -99,3 +99,12 @@ used chatgpt to find the jstify -content-center
 use justify-content-center class is added to the <ul> element that contains the navbar items. This will center the items horizontally within the navbar.
 
 You can also use other Bootstrap classes to customize the alignment further. For example, you can use align-items-center to vertically center the items within the navbar.
+
+
+
+===========
+
+===========
+Hello my good friend. Today we had major progess. we redesigned the overall page theme colors. we also added a slider to our menu page
+that very nice. and we intergated stripe for one product the birthday cake cupcake. 
+great progress today. we add this latest update to our main source file on our web server. 
