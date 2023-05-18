@@ -1,0 +1,59 @@
+.abouthead{
+
+padding: 10px;
+margin-top: 52px;
+
+}
+
+.display-6 {
+    color: $headingtext-color;
+    // font-family: 'Anton', sans-serif;
+    //font-family: 'Bebas Neue', cursive;
+    font-family: 'Courgette', cursive;
+    font-weight:700;
+    // font-family: 'Staatliches', cursive;
+//this is located on the index page inside the NavBar. 
+}
+
+
+
+#BestSellers {
+
+font-family: 'Staatliches', cursive;
+color:rgb(229, 51, 51); 
+}
+
+
+#Holiday-tagline {
+
+    font-family: 'Courgette', cursive;
+    color:rgb(229, 51, 51); 
+
+}
+
+
+
+#Menu-Heading{
+    color: $headingtext-color;
+    font-weight: 600;
+    // font-family: 'Staatliches', cursive;
+//create a variable for the heading text color. 
+}
+
+
+
+#MT-Header{
+    color: $pink2-color;
+    // font-family: 'Staatliches', cursive;
+    margin: 0;
+    padding: 50px;
+    font-weight: 700;
+
+}
+
+
+#CupcakesSpan {
+
+color: beige;
+
+}

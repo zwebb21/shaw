@@ -1,3 +1,17 @@
+
+$theme-colors:(
+"primary":rgb(7, 208, 243),
+"danger":rgb(189, 43, 43),
+"dark" :rgb(61, 60, 60),
+"secondary": rgb(33, 145, 33),
+);
+
+
+
+
+
+
+
 @import '1-helpers/mixins';
 @import '3-basics/buttons';
 @import '3-basics/cards';
@@ -11,4 +25,36 @@
 @import '6-pages/mint';
 @import '4-layouts/contact';
 @import '3-basics/forms';
+@import '1-helpers/variables';
+@import '6-pages/blog';
+@import '1-helpers/mediaquery';
+@import '4-layouts/paragraphs';
+@import '4-layouts/headings';
+@import '4-layouts/faq';
+@import '3-basics/navbar';
+@import '6-pages/about';
+@import '4-layouts/navigation';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 // this is where you import all the css.
+
+
+

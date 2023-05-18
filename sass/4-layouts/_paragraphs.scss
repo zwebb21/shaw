@@ -1,0 +1,32 @@
+.container-3{
+
+flex-direction: row;
+display: flex;
+justify-content: space-around;
+justify-content: space-between;
+// displays paragraph content into row -grid and adds space between.
+flex-wrap: nowrap;
+
+p {
+
+padding: 12px;
+
+}
+
+
+
+
+
+}
+
+
+.contact-text{
+font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
+font-weight: 700;
+color: #443b30;
+text-align: center;
+
+
+}
+

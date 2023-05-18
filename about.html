@@ -9,32 +9,24 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="dist/main.css">
 
 
 
 
 </head>
 
-<body class="container-fluid">
+<body class="container-fluid-2">
 
-  <!-- Start of navigation -->
-  <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color:#a0825c" ;>
-
+  <!-- Start of navigation --> <!-- Start of navigation -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light" id="navbar">
     <div class="container">
-
       <a class="navbar-brand" href="index.html">
-
-        <h2 class="display-6" id="SH-title">Shadawn Cupcakes</h2>
-
+        <h2 class="display-6" id="SH-title">Delight Cupcakes</h2>
       </a>
-
-
-      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -45,55 +37,25 @@
             <a class="nav-link" href="menu.html">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="locations.html">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Cart</a>
+            <a class="nav-link" href="cart.html">Cart</a>
           </li>
-
-
-        </ul>
+       
+       
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ ?</a>
+          </li>
+       
+        </ul><!-- close tag -->
       </div>
     </div>
   </nav>
-
-
-<!-- menu navigation -->
-<!-- 
-<section class="menunav">
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container-fluid nav">
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Featdures</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled">Disabled</a>
-        </div>
-      </div>
-    </div>
-  </nav>
-</section> -->
-
-
-
-
-
-
-
-
-<!--  -->
-
-  <!-- End of navigation -->
-
   <div class="hero">
     <div class="row">
 
@@ -103,13 +65,13 @@
     </div>
   </div>
   <!-- Start Of Article -->
-  <div class="row" id="rowcontainer">
+  <div class="row mt-5 p-4" id="rowcontainer">
     <div class="col-md-3">
 
 
       <section class="HIS">
         <h3 class="abouthead">How It Started</h3>
-        <p class="">Once upon a time, there was a young woman named Lily who had a passion for baking.
+        <p class="about-paragraph">Once upon a time, there was a young woman named Lily who had a passion for baking.
           She loved to experiment
           with different flavors and ingredients in her kitchen and dreamed of one day owning her own cupcake business.
         </p>
@@ -124,7 +86,7 @@
 
       <section class="Chl">
         <h3 class="abouthead">Challenges </h3>
-        <p>After completing pastry school and gaining experience working in various bakeries, Lily finally saved enough
+        <p class="about-paragraph">After completing pastry school and gaining experience working in various bakeries, Lily finally saved enough
           money to open her own shop. She named it "Sugar High Cupcakes" and decorated the walls with pastel colors and
           cute cupcake-themed accents.</p>
 
@@ -139,7 +101,7 @@
 
       <section class="Brt">
         <h4 class="abouthead"> Baking Round Town </h4>
-        <p> At first, business was slow. Lily worked tirelessly to perfect her recipes and spread the word about her
+        <p class="about-paragraph"> At first, business was slow. Lily worked tirelessly to perfect her recipes and spread the word about her
           shop. She handed out flyers on the street, offered free samples to customers, and even set up a cupcake booth
           at local events.</p>
       </section>
@@ -152,7 +114,7 @@
       <section class="Wtn">
         <h3 class="abouthead">Where to Now</h3>
 
-        <p> Years later, Lily's cupcake business was still going strong. She had a loyal following of customers and a
+        <p class="about-paragraph"> Years later, Lily's cupcake business was still going strong. She had a loyal following of customers and a
           team of skilled bakers who helped make her sweet dreams a reality. And she still felt just as passionate about
           baking as she did when she first started</p>
 
@@ -171,13 +133,13 @@
 
  
 <h3 class=" display-1 text-center margin-top: 22px ">History</h3>
-  <div class="container-3">
+  <div class="container-3 mt-5 p-4">
 
 
     <section class="history-1">
 
   <h3 class="History-Header">July 9th 1976</h3>
-    <p>As word of mouth spread and Lily's reputation grew, 
+    <p class="about-paragraph">As word of mouth spread and Lily's reputation grew, 
       more and more customers began to come to Sugar High Cupcakes.<br />
       The demand for her delicious cupcakes was so high that she had to hire a team of bakers to help
         her keep up</p>
@@ -185,10 +147,8 @@
 
     </section>
 
-            <section class="history-2">
-             
-              <i class="bi bi-chevron"> <h3 class="History-Header">October 9th 1980</h3> 
-              <p>    
+            <section class="history-2"><h3 class="History-Header">October 9th 1980</h3> 
+              <p class="about-paragraph">    
                       One of her most popular cupcakes was the "Strawberry Shortcake" 
                 which had a tender vanilla cake base topped with sweet strawberries and whipped cream.<br /> 
                 Another crowd-pleaser was the "Chocolate Overload" cupcake, 
@@ -199,8 +159,8 @@
             
                         <section class="history-3">
                           
-                          <i class="bi bi-chevron"></i> <h3 class="History-Header"> October 21 2005 </h3>
-                      <p> Sugar High Cupcakes became the go-to place for special events and celebrations.
+                         <h3 class="History-Header"> October 21 2005 </h3>
+                      <p class="about-paragraph"> Sugar High Cupcakes became the go-to place for special events and celebrations.
                           Brides and grooms would come to Lily to design custom cupcake <br> towers for their weddings, 
                           and birthday parties were made sweeter with Sugar High's cupcakes.</p></section>
 
@@ -217,7 +177,7 @@
   <section class="news">
 
     <div class="card-2 border-dark mb-3 text-center" style="max-width:auto;">
-      <h5 class="card-header text-center bg-dark text-light">Our Founder</h5>
+      <h3 class="card-header text-center bg-dark text-light mt-5 p-4">Our Founder</h3>
       <div class="card-body bg-dark profilepic-card text-light">
 
         <img src="img/shaw-profile.png" class="profilepic" alt="">
@@ -236,9 +196,14 @@
   <div class="row footer">
     <div class="col-lg-12">
 
-      <p class="text-sm">Copyright © Designed by Zarius Webb</p>
+      <a href="https://www.facebook.com/"><img class="socialicons" src="img/fb.png" alt=""></a>
+      <a href="https://www.pinterest.com/business/hub/"><img class="socialicons" src="img/pin.png"  alt=""></a>
+     <a href="http://www.twitter.com"><img class="socialicons" src="img/tw.png"  alt=""></a>
+     <a href="http://www.youtube.com"> <img class="socialicons" src="img/yt.png"  alt=""></a>
+      <p class="fw-light">Copyright © Delight Brown Cupcakes 2021</p>
 
     </div>
+
 
 
   </div>
