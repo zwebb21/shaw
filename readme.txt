@@ -105,6 +105,14 @@ You can also use other Bootstrap classes to customize the alignment further. For
 ===========
 
 ===========
+5/18/2023  - 
+
+
 Hello my good friend. Today we had major progess. we redesigned the overall page theme colors. we also added a slider to our menu page
 that very nice. and we intergated stripe for one product the birthday cake cupcake. 
 great progress today. we add this latest update to our main source file on our web server. 
+
+
+- Draft B . So eariler this morning i noticed that im having some trouble merging the updated code to the main file.
+Not sure exactly what the issue is, but the code isnt getting pushed to the master "branch". This weekend i should research on how to create branches correctly and merge them. 
+Also on second note . I noticed that gituhub pages would not update the hex code on the css file. 
