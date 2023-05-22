@@ -34,6 +34,30 @@ button:hover {
   color: black;
 }
 
+#canva-head {
+  height: auto;
+  padding: 20px;
+}
+#canva-head .card {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#canvas {
+  border-radius: 60px;
+  width: 280px;
+  text-align: center;
+}
+
+.canva {
+  padding: 50px;
+  text-align: center;
+}
+
+#canvas:hover {
+  color: black;
+}
+
 #cupcake-card {
   padding-bottom: 12px;
   padding-top: 52px;
@@ -361,6 +385,13 @@ button:hover {
   .History-Header {
     text-align: center;
     font-weight: 600;
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 120px;
+    margin-bottom: 120px;
   }
 }
 @media (max-width: 768px) {
