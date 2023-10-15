@@ -109,3 +109,9 @@ You can also use other Bootstrap classes to customize the alignment further. For
 Hello my good friend. Today we had major progess. we redesigned the overall page theme colors. we also added a slider to our menu page
 that very nice. and we intergated stripe for one product the birthday cake cupcake. 
 great progress today. we add this latest update to our main source file on our web server. 
+
+
+
+
+***Fix add to order buttons on every page
+***Fix about page add background to the paragraph sections. 

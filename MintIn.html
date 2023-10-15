@@ -14,7 +14,7 @@
   <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <h2 class="display-6">Delights Cupcakes</h2>
+        <h2 class="display-6" id="SH-title">Delight Cupcakes</h2>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,15 +34,24 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ ?</a>
+          </li>
+
         </ul>
       </div>
     </div>
   </nav>
-<p>This is a Tickets</p>
 
   <!-- End of navigation -->
   <div class="row">
-    <h3 class="display-3" id="MT-Header"> Chocalate Cupcakes
+    <h3 class="display-3" id="MT-Header"> Mint Chocalate Cupcakes
     </h3>
 
     <div class="col-6">
@@ -50,30 +59,46 @@
     </div>
 
     <div class="col-6">
-      <h4 class="display-5" id="IngreditentsHeader">Ingreditents</h4>
       <ul class="list-group " id="Ingrid">
-
+        
+ 
+        <h5 class="display-5" id="IngreditentsHeader">Ingreditents</h5>
         <li class=" list-group-item">Total Fat 1.6g
           2%
-        <li class="list-group-item">Saturated fat 0.5g 2% </li>
-        <li class="list-group-item">Cholesterol 0mg 0% </li>
-        <li class="list-group-item">Sodium 178mg 7%</li>
-        <li class="list-group-item">Potassium 96mg 2% </li>
-        <li class="list-group-item">Total Carbohydrate 29g 9%</li>
-        <li class="list-group-item">Dietary fiber 1.8g 7%</li>
-        <li class="list-group-item">Protein 1.8g 3% </li>
-        <li class="list-group-item">Caffeine 1mg </li>
-        <li class="list-group-item"> Vitamin C0% Calcium 1% </li>
-        <li class="list-group-item">Iron 3% Vitamin B6 0% </li>
-        <li class="list-group-item">Cobalamin 0% Magnesium 2% </li>
+          <li class="list-group-item">Saturated fat 0.5g 2% </li>
+          <li class="list-group-item">Cholesterol 0mg 0% </li>
+          <li class="list-group-item">Sodium 178mg 7%</li>
+          <li class="list-group-item">Potassium 96mg 2% </li>
+          <li class="list-group-item">Total Carbohydrate 29g 9%</li>
+          <li class="list-group-item">Dietary fiber 1.8g 7%</li>
+          <li class="list-group-item">Protein 1.8g 3% </li>
+          <li class="list-group-item">Caffeine 1mg </li>
+          <li class="list-group-item"> Vitamin C0% Calcium 1% </li>
+          <li class="list-group-item">Iron 3% Vitamin B6 0% </li>
+          <li class="list-group-item">Cobalamin 0% Magnesium 2% </li>
         <div class="add-order">
-          <h5 class="card-title">Mint </h5>
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <button id="add-to-order-btn" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Add to Order
           </button>
 
         </div>
+
+
+
+<div class="row">
+
+<div class="col-6">
+  
+</div>
+<div class="col-6">
+
+
+
+</div>
+</div>
+
+
 
         <!-- Modal -->
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -100,14 +125,30 @@
   </div>
   <!-- Subfooter -->
   <!-- Real Footer -->
-  <div class="row footer">
+  <div class="footer">
     <div class="col-lg-12">
       <div class="col-lg-12">
+        <a href="www.facebook.com">
 
-        <img class="socialicons" src="img/fb.png" alt="">
-        <img class="socialicons" src="img/pin.png" alt="">
-        <img class="socialicons" src="img/tw.png" alt="">
-        <img class="socialicons" src="img/yt.png" alt="">
+          <img class="socialicons" src="img/fb.png" alt="">
+        </a>
+
+        <a href="#">
+          <img class="socialicons" src="img/pin.png" alt="">
+
+        </a>
+        
+        <a href="#">
+
+          <img class="socialicons" src="img/tw.png" alt="">
+
+        </a>
+        
+        <a href="www.youtube.com">
+
+          <img class="socialicons" src="img/yt.png" alt="">
+
+        </a>
 
 
       </div>
@@ -120,6 +161,10 @@
 
   </div>
   </div>
+
+
+<script src="/js/cart.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>

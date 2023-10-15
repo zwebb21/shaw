@@ -1,4 +1,16 @@
 @charset "UTF-8";
+#Add-btn {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 23px;
+  font-style: italic;
+}
+
+#add-to-order-btn {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
 .btn-dark {
   align-items: center;
   margin-top: 50px;
@@ -7,30 +19,20 @@
 
 button {
   text-align: center;
-  /* There is a & with a :hover you can use to say esstentially and i want the hover on the link to turn red when hover. */
+  /* There is a & with a :hover you can use to say esstentially and 
+  i want the hover on the link to turn red when hover. */
 }
 button a {
   color: rgb(255, 255, 255);
-  text-decoration: none; /* gets rid of the underline on links on order now.*/
+  text-decoration: none;
+  /* gets rid of the underline on links on order now.*/
 }
 button a:hover {
   color: rgb(255, 181, 157);
-}
-
-.btn-newsletter {
-  background-color: #6c2323;
-  color: rgb(193, 34, 34);
-  padding: 10px 10px;
-  border: none;
-  border-radius: 12px;
-  font-size: 3px;
-  transition: background-color 0.5s ease;
-  margin-top: 0px;
-  margin-left: 38px;
+  transition-duration: 200ms ease;
 }
 
 button:hover {
-  font-size: 29px;
   color: black;
 }
 
@@ -100,6 +102,11 @@ button:hover {
 
 #SH-title {
   font-weight: 700;
+}
+
+#shopping-cart-title {
+  text-align: center;
+  font-weight: 800;
 }
 
 .text-muted {
@@ -478,7 +485,7 @@ button:hover {
   flex-wrap: nowrap;
 }
 .container-3 p {
-  padding: 12px;
+  padding: 32px;
 }
 
 .contact-text {
@@ -487,6 +494,13 @@ button:hover {
   font-weight: 700;
   color: #443b30;
   text-align: center;
+}
+
+.about-paragraph {
+  width: auto;
+  background-color: rgba(68, 59, 48, 0.1529411765);
+  padding: 42px;
+  border-radius: 22px;
 }
 
 .abouthead {
@@ -506,6 +520,7 @@ button:hover {
 }
 
 #BestSellers {
+  margin-top: 34px;
   font-family: "Staatliches", cursive;
   color: #e53333;
 }
@@ -602,6 +617,37 @@ body .container-fluid-2 {
 
 .container-breakdown {
   padding: 190px;
+}
+
+.cart-table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-table th, .cart-table td {
+  padding: 22px;
+  text-align: left;
+}
+
+.cart-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.cart-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cart-table tfoot td {
+  font-weight: bold;
+}
+
+.cart-table tfoot tr:last-child {
+  background-color: #f2f2f2;
 }
 
 /*!

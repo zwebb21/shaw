@@ -1,94 +1,75 @@
-.btn-dark {
 
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    }
-    
-
-    button {
-
-        text-align: center;
-        
-
-
-        a {
-
-            color: rgb(255, 255, 255);
-            text-decoration: none; /* gets rid of the underline on links on order now.*/}
-
-
-            a:hover {
-                color: rgb(255, 181, 157);
-
-            }
-
-/* There is a & with a :hover you can use to say esstentially and i want the hover on the link to turn red when hover. */
-        }
-
-      
-$orange-color:#c86a00;
+$orange-color: #c86a00;
 $orange2-color: #00f114;
-// variables that live within this file. 
 
-
-        .btn-newsletter {
-            background-color: #6c2323;
-            color: rgb(193, 34, 34);
-            padding: 10px 10px;
-            border: none;
-            border-radius: 12px;
-            font-size: 3px;
-            transition: background-color 0.5s ease;
-            // transition: font-size 0.5s ease;
-            margin-top: 0px;
-            margin-left: 38px;
-          }
-
-
-          button:hover {
-            // background-color: #8e7d3e;
-            font-size: 29px;
-            color: black;
-          }
-          
-
-
-#canva-head {
-
-height: auto;
-
-padding: 20px;
- .card { 
-
-
-margin-bottom: 20px;
-padding: 20px;
-
- }
-
+#Add-btn{
+margin: 0;
+text-align:center;
+margin-bottom: 23px;
+font-style: italic;
 
 }
 
-
-          #canvas {
-
-border-radius: 60px;
-width: 280px;
+#add-to-order-btn {
+  margin-top: 1.2rem;
+  
 text-align: center;
+}
 
+.btn-dark {
+  //dark buttons
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
 
-          }
+button {
+  //aplies to all button classes.
+  text-align: center;
 
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* gets rid of the underline on links on order now.*/
+  }
 
-          .canva {
+  a:hover {
+    color: rgb(255, 181, 157);
+    transition-duration: 200ms ease;
+  }
+  /* There is a & with a :hover you can use to say esstentially and 
+  i want the hover on the link to turn red when hover. */
+}
 
-            padding: 50px;
-            text-align: center;
-          }
+// variables that live within this file.
+button:hover {
+  // background-color: #8e7d3e;
 
-          #canvas:hover {
-            color:black;
+  color: black;
+}
 
+#canva-head {
+  height: auto;
 
-          }
+  padding: 20px;
+
+  .card {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+}
+
+#canvas {
+  border-radius: 60px;
+  width: 280px;
+  text-align: center;
+}
+
+.canva {
+  padding: 50px;
+  text-align: center;
+}
+
+#canvas:hover {
+  color: black;
+}
