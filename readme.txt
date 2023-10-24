@@ -115,3 +115,11 @@ great progress today. we add this latest update to our main source file on our w
 
 ***Fix add to order buttons on every page
 ***Fix about page add background to the paragraph sections. 
+==================================================
+
+
+10/23/23
+Added some changes over the weekend. 
+Updated about page.
+updated the cards on the cupcake individual pages. 
+still learning ajax and php to get the form workign on the site so that when a user adds a product fo
