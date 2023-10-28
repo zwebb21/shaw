@@ -115,3 +115,9 @@ great progress today. we add this latest update to our main source file on our w
 
 ***Fix add to order buttons on every page
 ***Fix about page add background to the paragraph sections. 
+
+
+
+-------------------------------------
+My goal today is to get the contact form working on the contact page. 
+i want users to be able to send mail with a text field.
