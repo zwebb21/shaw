@@ -275,7 +275,11 @@
 Starts here. 
 
 -->
+<<<<<<< HEAD:faq.html
 <form action="../shaw-master/formhandler.php" method="post">
+=======
+<form action="./includes/formhandler.inc.php" method="post">
+>>>>>>> 2af64a878dce9015e373429a55c86b652d0568c3:faq.php
 
     <div class="form-group">
       <label for="name">Name:</label>

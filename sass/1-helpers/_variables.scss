@@ -3,3 +3,27 @@ $headingtext-color:#342a26;
 $prettypink-color: #ffb0b0;
 $pink2-color:#945959;
 $headingtext2-color:#443b30;
+
+
+  
+  .show-cart li {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    width: auto;
+    height: auto;
+    align-self: center;
+  }
+
+  .product-image {
+    opacity: 1; /* Initial opacity */
+    transition: opacity 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  .product-image:hover {
+    opacity: 0.5; /* Darken the image on hover */
+  }
+  

@@ -73,3 +73,19 @@ button:hover {
 #canvas:hover {
   color: black;
 }
+
+.btn-contols-cart{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px 10px; 
+
+}
+
+
+ .btn-primary,.btn-danger {
+  
+padding:12.3px;
+margin-bottom: 1.2rem;
+gap: 20px 10px; 
+}

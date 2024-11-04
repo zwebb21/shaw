@@ -60,6 +60,18 @@ button:hover {
   color: black;
 }
 
+.btn-contols-cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 10px;
+}
+
+.btn-primary, .btn-danger {
+  padding: 12.3px;
+  margin-bottom: 1.2rem;
+  gap: 20px 10px;
+}
+
 #cupcake-card {
   padding-bottom: 12px;
   padding-top: 52px;
@@ -382,6 +394,29 @@ button:hover {
   border-radius: 50%;
   background-color: #d71c4b;
   box-shadow: inset -2px 2px 0 #a90a35;
+}
+
+.show-cart li {
+  display: flex;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  width: auto;
+  height: auto;
+  align-self: center;
+}
+
+.product-image {
+  opacity: 1; /* Initial opacity */
+  transition: opacity 0.3s; /* Add a transition for a smooth effect */
+}
+
+.product-image:hover {
+  opacity: 0.5; /* Darken the image on hover */
 }
 
 .col-12 {

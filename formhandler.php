@@ -7,10 +7,17 @@ $email = htmlspecialchars($_POST["email"]);
 $message = htmlspecialchars($_POST["message"]);
 
 
+<<<<<<< HEAD
 if (empty($firstname)){
 
 exit();
 header("Location: ./index.php");
+=======
+if (empty($name)){
+
+exit();
+header("Location: ../shaw-master/index.html");
+>>>>>>> 2af64a878dce9015e373429a55c86b652d0568c3
 
 }
 
