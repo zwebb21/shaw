@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+    /* Styles for mobile devices */
+
+
+
+ #SH-title{
+text-align: center;
+/* the Delight Cupcakes title */
+    font-size: 2.1em;
+ }
+
+
+.nav-item{
+/* navigation styling */
+font-weight: 600;
+font-size: x-large;
+text-align: center;
+
+}
+
+.nav-item :hover{
+background-color: antiquewhite;
+border-radius: 2%;
+
+
+}
+
+
+.socialicons{
+
+width: auto;
+
+
+}
+
+
+
+
+
+  }
+  

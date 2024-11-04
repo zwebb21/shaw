@@ -115,3 +115,30 @@ great progress today. we add this latest update to our main source file on our w
 
 ***Fix add to order buttons on every page
 ***Fix about page add background to the paragraph sections. 
+
+
+
+
+
+
+/// November 2 2024 ( im making a quest to work on this for mobile responsive desing . 
+
+**fix Navigation font size for mobile screens * 
+**fs is still to small for mobile screen iphone 11 
+
+
+
+this should teach me how to approach this common imprt sitution in codeing and web developemnt 
+)
+
+
+//November 3 2024 { hello my good friend toady i focus on checking mobile Design on each page.
+
+
+1.check mobile design view on Home Page
+
+2.check mobile design view on about Page
+        {i notice the font on the section are small and to be readable font size. for mobile screens}
+
+3.check mobile design view on faq Page
+}
