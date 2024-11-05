@@ -697,31 +697,80 @@ body .container-fluid-2 {
   background-color: #f2f2f2;
 }
 
-@media only screen and (max-width: 768px) {
-  /* Styles for mobile devices */
+/* General styles for desktop or large screens */
+body {
+  font-size: 1em; /* Default size for larger screens */
+}
+
+/* Medium screens (tablets, large phones like iPhone 11) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for medium devices (tablets, large phones) */
+  .card-text {
+    text-align: center;
+    font-size: 2em;
+  }
+  .card-title {
+    text-align: center;
+    font-size: 2.4em;
+  }
   #SH-title {
     text-align: center;
-    /* the Delight Cupcakes title */
-    font-size: 2.1em;
+    font-size: 2.5em; /* Slightly larger font for medium screens */
   }
   .nav-item {
-    /* navigation styling */
     font-weight: 600;
     font-size: x-large;
     text-align: center;
   }
-  .nav-item :hover {
+  .nav-item:hover {
     background-color: antiquewhite;
     border-radius: 2%;
   }
   .socialicons {
-    width: auto;
+    width: -moz-min-content;
+    width: min-content;
+  }
+  .abouthead {
+    font-size: 4em; /* Larger font for medium screens */
+  }
+  .about-paragraph {
+    font-size: 3em; /* Increase paragraph size */
+  }
+}
+/* Small screens (e.g., mobile devices like iPhone 11 in portrait mode) */
+@media only screen and (max-width: 768px) {
+  /* Styles for small mobile devices */
+  #SH-title {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .nav-item {
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+  }
+  .nav-item:hover {
+    background-color: antiquewhite;
+    border-radius: 2%;
+  }
+  .socialicons {
+    width: -moz-min-content;
+    width: min-content;
   }
   .abouthead {
     font-size: 3.2em;
   }
   .about-paragraph {
-    font-size: 1.36em;
+    font-size: 2.8em; /* Larger font for smaller devices */
+  }
+  .card-text {
+    text-align: center;
+    font-size: 2em;
+  }
+  .card-title {
+    text-align: center;
+    font-size: 2.4em;
   }
 }
 /*!
