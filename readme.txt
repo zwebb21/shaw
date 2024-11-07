@@ -118,7 +118,6 @@ great progress today. we add this latest update to our main source file on our w
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -143,8 +142,12 @@ this should teach me how to approach this common imprt sitution in codeing and w
 
 3.check mobile design view on faq Page
 }
-=======
 -------------------------------------
 My goal today is to get the contact form working on the contact page. 
 i want users to be able to send mail with a text field.
->>>>>>> 2af64a878dce9015e373429a55c86b652d0568c3
+
+
+November 6th 2024 
+Yesterday i finally got the about page mobile responsive. today i will focus on Responsiveness
+with the contact page anf also make sure that the faq link witht the othetr pages. 
+

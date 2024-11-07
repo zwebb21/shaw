@@ -20,17 +20,17 @@ text-align: center;
 
     #SH-title {
         text-align: center;
-        font-size: 2.5em; /* Slightly larger font for medium screens */
+        font-size: 2.0em; /* Slightly larger font for medium screens */
     }
 
     .nav-item {
         font-weight: 600;
-        font-size: x-large;
+        font-size: large;
         text-align: center;
     }
 
     .nav-item:hover {
-        background-color: antiquewhite;
+        background-color: rgb(92, 86, 78);
         border-radius: 2%;
     }
 
@@ -61,12 +61,12 @@ text-align: center;
 
     .nav-item {
         font-weight: 600;
-        font-size: x-large;
+        font-size: xx-large;
         text-align: center;
     }
 
     .nav-item:hover {
-        background-color: antiquewhite;
+        background-color: rgb(83, 78, 72);
         border-radius: 2%;
     }
 
@@ -76,10 +76,12 @@ text-align: center;
 
     .abouthead {
         font-size: 3.2em;
+        margin-bottom: 1.2em;
     }
 
     .about-paragraph {
         font-size: 2.8em; /* Larger font for smaller devices */
+        margin-bottom: 1.2em;
     }
 
 
@@ -96,3 +98,12 @@ text-align: center;
         }
 
 }
+
+
+
+@media (max-width: 276px) {
+    .navbar-toggler {
+      margin-left: auto; /* Ensures it's always on the right */
+    }
+  }
+  

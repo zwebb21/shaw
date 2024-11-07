@@ -78,6 +78,9 @@ button:hover {
   padding: 1.9em;
 }
 
+.card body {
+  background-color: rgb(41, 43, 46);
+}
 .card h5, .card .h5 {
   text-align: center;
 }
@@ -100,6 +103,7 @@ button:hover {
   letter-spacing: 0.09rem;
 }
 .card .card-title {
+  margin-top: 2.2em;
   color: #ffb0b0;
   letter-spacing: 0.15rem;
 }
@@ -300,19 +304,11 @@ a:hover {
   border-radius: 24%;
 }
 
-#contactInfoRow {
-  height: 45vh;
-}
-
 .response-pic {
   width: 50%;
   border-radius: 30px;
   margin-left: 20%;
   padding: 20px;
-}
-
-#inputinfo {
-  margin-top: 50px;
 }
 
 #emailinfobox {
@@ -646,6 +642,10 @@ body .container-fluid-2 {
   padding: 20px;
 }
 
+.navbar-toggler {
+  margin-left: auto; /* Pushes it to the right */
+}
+
 #breakdown {
   display: flex;
   flex-direction: column;
@@ -715,15 +715,15 @@ body {
   }
   #SH-title {
     text-align: center;
-    font-size: 2.5em; /* Slightly larger font for medium screens */
+    font-size: 2em; /* Slightly larger font for medium screens */
   }
   .nav-item {
     font-weight: 600;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
   }
   .nav-item:hover {
-    background-color: antiquewhite;
+    background-color: rgb(92, 86, 78);
     border-radius: 2%;
   }
   .socialicons {
@@ -747,11 +747,11 @@ body {
   }
   .nav-item {
     font-weight: 600;
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
   }
   .nav-item:hover {
-    background-color: antiquewhite;
+    background-color: rgb(83, 78, 72);
     border-radius: 2%;
   }
   .socialicons {
@@ -760,9 +760,11 @@ body {
   }
   .abouthead {
     font-size: 3.2em;
+    margin-bottom: 1.2em;
   }
   .about-paragraph {
     font-size: 2.8em; /* Larger font for smaller devices */
+    margin-bottom: 1.2em;
   }
   .card-text {
     text-align: center;
@@ -771,6 +773,11 @@ body {
   .card-title {
     text-align: center;
     font-size: 2.4em;
+  }
+}
+@media (max-width: 276px) {
+  .navbar-toggler {
+    margin-left: auto; /* Ensures it's always on the right */
   }
 }
 /*!
