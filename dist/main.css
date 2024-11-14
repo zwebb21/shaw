@@ -311,6 +311,12 @@ a:hover {
   padding: 20px;
 }
 
+#inputinfo {
+  height: -moz-max-content;
+  height: max-content;
+  padding: 40px;
+}
+
 #emailinfobox {
   text-align: center;
   background-color: #c6a77e;
@@ -415,8 +421,55 @@ button:hover {
   opacity: 0.5; /* Darken the image on hover */
 }
 
-.col-12 {
+#first-customer-testimony {
+  margin: 0;
+  padding: 0;
   text-align: center;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+#first-customer-testimony img {
+  border-radius: 40px;
+  padding: 20px;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+#first-customer-testimony img:hover {
+  transform: scale(1.1); /* Slight zoom in */
+  opacity: 0.5; /* Make the image darker */
+}
+
+/* Style for the text overlay */
+.overlay-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  color: rgb(231, 225, 225);
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition for revealing */
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* On hover, reveal the text */
+.img-container:hover .overlay-text {
+  opacity: 1;
+}
+
+.blog-container {
+  background-color: rgba(253, 202, 155, 0.226);
+  padding: 20px;
 }
 
 @media (min-width: 1400px) {
@@ -630,6 +683,10 @@ button:hover {
 
 body .container-fluid-2 {
   background-color: black;
+}
+
+.abouthead {
+  margin-bottom: 17px;
 }
 
 #navbar {

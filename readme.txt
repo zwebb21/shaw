@@ -151,3 +151,8 @@ November 6th 2024
 Yesterday i finally got the about page mobile responsive. today i will focus on Responsiveness
 with the contact page anf also make sure that the faq link witht the othetr pages. 
 
+
+------------------
+November 7th 2024 
+**keep reapplying newley learned concepts to this project and make it better and better. 
+
